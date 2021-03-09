@@ -19,12 +19,7 @@ use App\Http\Controllers\NewsController;
 |
 */
 
-// Auth::routes();
-// Route::get('/', [HomeController::class, 'index'])->name('home');
-
 Route::get('/', [HomeController::class, 'index']);
-
-// Route::get('/{slug}', )
 
 Route::get('/contact-us', [ContactController::class, 'index']);
 
